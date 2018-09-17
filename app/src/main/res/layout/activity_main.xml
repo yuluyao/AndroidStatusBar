@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:background="#33dd00dd"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  >
+
+    <android.support.v7.widget.Toolbar
+      android:layout_width="0dp"
+      android:layout_height="48dp"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:title="title"
+      android:background="@color/colorAccent"
+      android:id="@+id/toolbar"
+      />
+
+    <!--<TextView-->
+      <!--android:layout_width="wrap_content"-->
+      <!--android:layout_height="40dp"-->
+      <!--android:gravity="center"-->
+      <!--android:padding="8dp"-->
+      <!--android:text="Hello World!"-->
+      <!--android:background="@color/colorAccent"-->
+      <!--app:layout_constraintLeft_toLeftOf="parent"-->
+      <!--app:layout_constraintRight_toRightOf="parent"-->
+      <!--app:layout_constraintTop_toTopOf="parent"-->
+      <!--/>-->
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="80dp"
+      android:text="this is foot"
+      android:gravity="center"
+      android:padding="8dp"
+      android:background="@color/colorAccent"
+      android:textSize="24sp"
+      android:id="@+id/tvFoot"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      />
+
+</android.support.constraint.ConstraintLayout>
