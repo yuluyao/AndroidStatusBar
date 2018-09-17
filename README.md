@@ -1,6 +1,6 @@
 # 总结--Android 状态栏与导航栏设置
 
-## DecorView.setSystemUiVisibility()
+## decorView.systemUiVisibility
 - **SYSTEM_UI_FLAG_VISIBLE** : 显示系统UI (SYSTEM_UI)
 - **SYSTEM_UI_FLAG_LOW_PROFILE** : 低调模式,隐藏状态栏上不重要的图标
 - **SYSTEM_UI_FLAG_HIDE_NAVIGATION** : 隐藏导航栏
