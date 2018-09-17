@@ -40,16 +40,8 @@
 
 ## 颜色设置
 ###1. 5.0以上
-- **状态栏**
-
-window.statusBarColor
-- **导航栏**
-
-window.navigationBarColor
+- **状态栏** : window.statusBarColor
+- **导航栏** : window.navigationBarColor
 ###2. 4.4以上
-- **状态栏半透明**
-
-window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
-- **导航栏半透明**
-
-window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
+- **状态栏半透明** : window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+- **导航栏半透明** : window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
