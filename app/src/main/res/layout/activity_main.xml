@@ -14,8 +14,7 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:title="title"
-      android:background="@color/colorAccent"
+      app:title="toolbar title here"
       android:id="@+id/toolbar"
       />
 
@@ -34,7 +33,7 @@
     <TextView
       android:layout_width="wrap_content"
       android:layout_height="80dp"
-      android:text="this is foot"
+      android:text="foot TextView"
       android:gravity="center"
       android:padding="8dp"
       android:background="@color/colorAccent"
